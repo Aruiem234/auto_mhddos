@@ -6,5 +6,5 @@
 #tcp://91.189.116.40:443 tcp://91.189.116.40:993 tcp://91.189.116.40:995 tcp://91.189.116.41:443 tcp://91.189.116.41:993 tcp://91.189.116.41:995 tcp://91.189.116.42:443 tcp://91.189.116.42:993 tcp://91.189.116.42:995 tcp://91.189.116.43:443 tcp://91.189.116.43:993 tcp://91.189.116.43:995
 #https://fstec.ru/ http://fstec.ru/ --http-methods CFB
 #НЕДО ГОС
-https://lkdr.nalog.gov.ru/ https://nalog.gov.ru --http-methods CFB
+https://lkdr.nalog.gov.ru/ https://nalog.gov.ru --http-methods GET
 tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443
