@@ -3,7 +3,7 @@
 
 ### Представляем auto_mhddos - автоматизирующий скрипт [mhddos_proxy](https://github.com/porthole-ascend-cinnamon/mhddos_proxy)
 
-1. [Docker](https://github.com/Aruiem234/auto_mhddos#-docker)
+1. [Docker](https://github.com/Aruiem234/auto_mhddos/tree/main/docker#-docker)
 2. [Bash(Linux-терминал)](https://github.com/Aruiem234/auto_mhddos#-bash)
 3. [Kubernetes](https://github.com/Aruiem234/auto_mhddos/tree/main/helm-charts#mhddos-auto-helm-charts)
 
