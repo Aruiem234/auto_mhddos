@@ -1,4 +1,4 @@
-## 🪖 Bash(Linux-терминал/WSL2)  
+## 🪖 Bash(Linux-термінал/WSL2)  
 
 ## ❕Опис
 
