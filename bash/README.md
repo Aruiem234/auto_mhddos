@@ -28,11 +28,11 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 Щоб знизити навантаження на систему, спробуйте використати `threads = 500`
 
 ```
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/auto_bash.sh | bash -s -- 500
+curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash -s -- 500
 ```
 
 Щоб навантажити систему більше, спробуйте використати `threads = 2000`
 
 ```
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/auto_bash.sh | bash -s -- 2000
+curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash -s -- 2000
 ```
