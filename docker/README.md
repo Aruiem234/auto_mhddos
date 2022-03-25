@@ -1,4 +1,4 @@
-## 🪖 Docker
+## 🪖 Docker (Windows, Mac, Linux)
 
 # [auto_mhddos](https://github.com/theorlovsky/auto_mhddos) – інструмент для автоматизації роботи [mhddos_proxy](https://github.com/porthole-ascend-cinnamon/mhddos_proxy)
 
