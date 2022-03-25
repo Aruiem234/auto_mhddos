@@ -3,8 +3,8 @@
 
 ### Представляем auto_mhddos - автоматизирующий скрипт [mhddos_proxy](https://github.com/porthole-ascend-cinnamon/mhddos_proxy)
 
-1. [Docker](./docker/README.md)
-2. [Bash(Linux-терминал/WSL2)](./bash/README.md)
+1. [Docker (Windows, Mac, Linux)](./docker/README.md)
+2. [Bash скрипт (Linux, WSL2, Віртуальна машина)](./bash/README.md)
 
 
 ##### ❗️❗️❗️❗️ ЛУЧШЕ ЗАПУСКАТЬ НЕСКОЛЬКО ОКОН ПО 1К ПОТОКОВ, ЧЕМ 1 РАЗ С БОЛЬШОЙ НАГРУЗКОЙ
