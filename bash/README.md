@@ -7,7 +7,7 @@
 * Запускається однією командою в Linux і WSL2 (Windows Subsystem for Linux). Подальше втручання від користувача не обов'язкове. 
  
 ```
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/auto_bash.sh | bash
+curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash
 ```
 * Автоматично встановлює git, python3, pip, mhddos_proxy, MHDDoS, розширений список proxy і всі залежності.
 
