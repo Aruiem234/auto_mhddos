@@ -1,3 +1,5 @@
+## 🪖 Bash(Linux-терминал)  
+
 ## ❕Опис
 
 ### mhddos_bash - скрипт на bash, що керує [mhddos_proxy](https://github.com/porthole-ascend-cinnamon/mhddos_proxy)
