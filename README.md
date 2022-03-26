@@ -5,7 +5,7 @@
 
 1. [Docker (Windows, Mac, Linux)](./docker/README.md)
 2. [Bash скрипт (Linux, WSL2, Віртуальна машина)](./bash/README.md)
-
+3. [Google Collaboratory](https://github.com/white-sagittarius/auto_mhddos)
 
 ##### ❗️❗️❗️❗️ ЛУЧШЕ ЗАПУСКАТЬ НЕСКОЛЬКО ОКОН ПО 1К ПОТОКОВ, ЧЕМ 1 РАЗ С БОЛЬШОЙ НАГРУЗКОЙ
 ### [Телеграм канал](https://t.me/+-GoGtA_IsOk3YmE6)
