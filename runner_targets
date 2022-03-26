@@ -1,6 +1,5 @@
 ### Цели выбираются и анонсируются в канале Украинский Жнец - https://t.me/+-GoGtA_IsOk3YmE6 чат - https://t.me/+sNy3N3b11_9mMDA6
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
-### Не делаем больше 4 строк. Иначе процы с небольшим кол-вом потоков и некоторые тулзы будут страдать.
 
 #nalog.gov.ru 
 https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru https://https://lkdr.nalog.gov.ru --http-methods STRESS
