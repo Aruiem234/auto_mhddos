@@ -4,7 +4,7 @@
 ### Представляем auto_mhddos - автоматизирующий скрипт [mhddos_proxy](https://github.com/porthole-ascend-cinnamon/mhddos_proxy)
 
 1. [Docker (Windows, Mac, Linux)](./docker/README.md)
-2. [Bash скрипт (Linux, WSL2, Віртуальна машина)](./bash/README.md)
+2. [Bash скрипт (Windows, Linux, WSL2, Віртуальна машина)](./bash/README.md)
 3. [Google Collaboratory](https://github.com/white-sagittarius/auto_mhddos)
 
 
