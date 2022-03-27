@@ -36,3 +36,6 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 ```
 curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash -s -- 2000
 ```
+## Встановлення на Windows.
+
+[Инструкція по встановленнию Python3 і Git на Windows](https://telegra.ph/Vstanovlennya-mhddos-proxy-napryamu-na-vash-komp-03-27). Не тестувалось на сумісність з auto_bash. Дозволяє як мінімум запускати mhddos_proxy командами які надаються в каналі [українського женця](https://t.me/ukrainian_reaper_ddos). У випадку помилок можна написати по координатах, залишених в кінці інструкції.
