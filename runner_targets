@@ -3,4 +3,4 @@
 
 
 https://iml.ru/ --http-methods STRESS
-tcp://46.243.184.194:443 -t 1000 -p 1200 --rpc 1000 --debug
+tcp://46.243.184.194:443
