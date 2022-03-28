@@ -5,5 +5,5 @@
 https://iml.ru/ --http-methods STRESS
 tcp://46.243.184.194:443
 
-https://cargocash.ru/ http://cargocash.ru/ --http-methods bypass DGB
+https://cargocash.ru/ http://cargocash.ru/ --http-methods DGB
 tcp://94.228.116.171:80 tcp://94.228.116.171:443
