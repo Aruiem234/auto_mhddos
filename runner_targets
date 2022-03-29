@@ -7,3 +7,6 @@ tcp://46.243.184.194:443
 
 https://cargocash.ru/ http://cargocash.ru/ --http-methods DGB
 tcp://94.228.116.171:80 tcp://94.228.116.171:443
+
+# наживаются на войне, указанная страница - фишинговая для кражи денег.
+https://ukraineofficial.xyz/#/ http://ukraineofficial.xyz/#/ --http-methods CFB STRESS
