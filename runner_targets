@@ -2,15 +2,15 @@
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
 
-https://iml.ru/ --http-methods STRESS
-tcp://46.243.184.194:443
+#https://iml.ru/ --http-methods STRESS
+#tcp://46.243.184.194:443
 
 https://cargocash.ru/ http://cargocash.ru/ --http-methods DGB
 tcp://94.228.116.171:80 tcp://94.228.116.171:443
 
 # наживаются на войне, указанная страница - фишинговая для кражи денег.
-https://ukraineofficial.xyz/#/ http://ukraineofficial.xyz/#/ --http-methods CFB STRESS
+#https://ukraineofficial.xyz/#/ http://ukraineofficial.xyz/#/ --http-methods CFB STRESS
 
 # QIWI
-tcp://91.232.230.126:443 tcp://91.232.230.164:443 tcp://91.232.230.40:443 tcp://91.232.230.180:443 tcp://91.232.230.135:443 tcp://91.232.230.165:443 tcp://91.232.230.202:443
+tcp://91.232.230.50:443 tcp://91.232.230.126:443 tcp://91.232.230.139:443tcp://91.232.230.126:443 tcp://91.232.230.164:443 tcp://91.232.230.40:443 tcp://91.232.230.180:443 tcp://91.232.230.135:443 tcp://91.232.230.165:443 tcp://91.232.230.202:443
 https://qiwi.com https://checkout.qiwi.com https://my.qiwi.com https://oplata.qiwi.com https://p2p.qiwi.com --http-methods GET
