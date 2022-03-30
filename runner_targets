@@ -11,6 +11,6 @@ tcp://91.232.230.50:443 tcp://91.232.230.126:443 tcp://91.232.230.139:443 tcp://
 https://qiwi.com https://checkout.qiwi.com https://my.qiwi.com https://oplata.qiwi.com https://p2p.qiwi.com --http-methods GET
 
 
-https://minfin.gov.ru
+# minfin.gov.ru
 https://minfin.gov.ru --http-methods GET STRESS 
 tcp://195.80.224.185:443 tcp://195.80.224.149:10443 tcp://193.124.18.59:993 tcp://193.124.18.59:995 tcp://193.124.18.157:993 tcp://193.124.18.157:995 tcp://194.58.38.177:993 tcp://194.58.38.177:995
