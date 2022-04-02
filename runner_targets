@@ -3,3 +3,6 @@
 
 http://mercury.vetrf.ru/ https://ivis-sso.vetrf.ru http://assol-express.vetrf.ru https://argus.vetrf.ru https://vetrf.ru/ --http-methods GET STRESS
 tcp://62.76.148.81:443 tcp://62.76.145.221:443 tcp://62.76.145.203:443 tcp://62.76.145.81:443
+
+https://www.auchan.ru https://auchan.ru --http-methods GET STRESS
+tcp://46.243.184.43:443 tcp://46.243.184.47:443 tcp://46.243.184.45:443 tcp://194.84.13.19:443
