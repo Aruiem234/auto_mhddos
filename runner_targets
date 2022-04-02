@@ -1,10 +1,5 @@
 ### Цели выбираются и анонсируются в канале Украинский Жнец - https://t.me/+-GoGtA_IsOk3YmE6 чат - https://t.me/+sNy3N3b11_9mMDA6
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
-
-# minfin.gov.ru
-https://minfin.gov.ru --http-methods GET STRESS 
-tcp://195.80.224.185:443 tcp://195.80.224.149:10443 tcp://193.124.18.59:993 tcp://193.124.18.59:995 tcp://193.124.18.157:993 tcp://193.124.18.157:995 tcp://194.58.38.177:993 tcp://194.58.38.177:995
-
-https://payanyway.ru --http-methods GET STRESS
-tcp://185.111.84.213:443
+http://mercury.vetrf.ru/ https://ivis-sso.vetrf.ru http://assol-express.vetrf.ru https://argus.vetrf.ru https://vetrf.ru/ --http-methods GET STRESS
+tcp://62.76.148.81:443 tcp://62.76.145.221:443 tcp://62.76.145.203:443 tcp://62.76.145.81:443
