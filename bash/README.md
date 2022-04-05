@@ -36,6 +36,11 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 ```
 curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash -s -- 2000
 ```
+
+## Зупинка скрипту
+1. Або просто зачинити термінал.
+2. Або в іншому терміналі виконати `pkill -f start.py; pkill -f runner.py` а потім натиснути CTRL+C у терміналі з скриптом.
+
 ## Запуск на Windows у powershell.
 
 Потрібна лише Windows 7 або вище. Усе інше скрипт зробить самостійно.
