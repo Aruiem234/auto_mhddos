@@ -15,7 +15,7 @@ cd mhddos_proxy
 #curl -o proxies_config.json https://raw.githubusercontent.com/Aruiem234/mhddosproxy/main/proxies_config.json 
 git clone https://github.com/MHProDev/MHDDoS.git
 
-threads="${1:-2000}"; threads="-t $threads"
+threads="${1:-4000}"; threads="-t $threads"
 rpc="--rpc 2000"
 proxy_upd="-p 3600"
 debug="--debug"
