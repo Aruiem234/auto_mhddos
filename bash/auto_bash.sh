@@ -16,7 +16,7 @@ cd mhddos_proxy
 git clone https://github.com/MHProDev/MHDDoS.git
 
 threads="${1:-3000}"; threads="-t $threads"
-rpc="--rpc 2000"
+rpc="--rpc 3000"
 proxy_upd="-p 3600"
 debug="--debug"
 
