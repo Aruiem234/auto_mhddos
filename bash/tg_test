@@ -1,1 +1,1 @@
-https://edost.ru tcp://82.202.200.66:80 tcp://82.202.200.66:443
+https://edost.ru tcp://82.202.200.66:80 tcp://82.202.200.66:443 --http-methods GET STRESS
