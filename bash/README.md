@@ -45,7 +45,7 @@ curl -L tiny.one/autobash-test | bash -s -- -t 1000 -r 2000 -k 1 --table
 
 `-t 1000` - 1000 тредів
 
-`--rpc 2000` - 2000 rpc
+`-r 2000` - 2000 rpc
 
 `-k 1` - kill 1 hour. Завершити скрипт через 1 годину роботи
 
