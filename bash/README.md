@@ -38,7 +38,7 @@ curl -L tiny.one/autobash | bash -s --  4000
 ```
 
 
-## ❕ Передача параметрів (тестовая версия)
+## ❕ Передача параметрів (бета версія)
 ```
 curl -L tiny.one/autobash-test | bash -s -- -t 1000 -r 2000 -k 1 --table
 ```
