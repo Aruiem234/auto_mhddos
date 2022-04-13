@@ -28,13 +28,13 @@ curl -L tiny.one/autobash | bash
 Щоб знизити навантаження на систему, спробуйте використати `threads = 500`
 
 ```
-curl -L tiny.one/autobash | bash -s --  500
+curl -L tiny.one/autobash | bash -s -- 500
 ```
 
 Щоб навантажити систему більше, спробуйте використати `threads = 2000`
 
 ```
-curl -L tiny.one/autobash | bash -s --  4000
+curl -L tiny.one/autobash | bash -s -- 4000
 ```
 
 
