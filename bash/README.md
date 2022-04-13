@@ -45,7 +45,7 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 
 `-t 2000` - 2000 тредів
 
-`--rpc` - 2000 rpc
+`--rpc 2000` - 2000 rpc
 
 `-k 1` - kill 1 hour. Завершити скрипт через 1 годину роботи
 
