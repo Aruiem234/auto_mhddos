@@ -68,7 +68,8 @@ rpc="--rpc 2000"
 debug="--debug"
 table=""
 
-while [ "$1" != "" ]; do
+while [ "$1" != "" ]
+do
     case $1 in
       -t | --threads )   threads="-t $2"; shift 2;;
       -r | --rpc )    rpc="--rpc $2";  shift 2  ;;
