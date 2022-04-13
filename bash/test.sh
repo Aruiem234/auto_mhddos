@@ -1,4 +1,5 @@
 #!/bin/bash
+# curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/bash/test.sh | bash
 
 usage() {
 cat << EOF
