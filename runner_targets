@@ -2,7 +2,7 @@
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
 # Продолжаем держать под нагрузкой
-#https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru https://wink.ru https://e-kontur.ru/ https://www.crpt.ru --http-methods GET STRESS
+https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru https://wink.ru https://e-kontur.ru/ https://www.crpt.ru --http-methods GET STRESS
 
 
 https://online.sberbank.ru/CSAFront/index.do#/ https://syncplay.online.sberbank.ru/ https://web4.online.sberbank.ru/ https://devices.online.sberbank.ru/ https://www.sberbank.com/ru https://www.sberbank.ru/ru/person https://tortuga.sberbank.ru/site/login https://3dsec.sberbank.ru/ https://mobilecm.csc.sberbank.ru/ https://office.sberbank.ru/ https://sber.ru/ https://sberdevices.ru/ https://osago.sberbank.ru/ https://rabota.sber.ru/
