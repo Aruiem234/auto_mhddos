@@ -25,7 +25,7 @@ curl -L tiny.one/autobash | bash
 Виконувати як root. Інакше скрипт спитає пароль у фоні і ви не зможете його ввести.
 
 ```
-curl -L tiny.one/autobash | nohup bash
+curl -L tiny.one/autobash | nohup bash &
 ```
 Після цього термінал можна зачиняти і скрипт продовжить працювати в фоні.
 
