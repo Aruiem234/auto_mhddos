@@ -2,9 +2,8 @@
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
 # Продолжаем держать под нагрузкой
-#https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru https://wink.ru https://e-kontur.ru/ --http-methods GET STRESS
+https://www.cdek.ru/ru https://cdek.by/ru/ https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru https://wink.ru https://e-kontur.ru/ https://www.crpt.ru --http-methods GET STRESS
 
 
-https://www.crpt.ru https://markirovka.crpt.ru/login-kep https://milk.crpt.ru/ https://ismp.crpt.ru https://edo-gismt.crpt.ru/ https://suzgrid.crpt.ru/login http://suz2.crpt.ru http://api.mdlp.crpt.ru http://kb.crpt.ru http://nrz.api.sb.mdlp.crpt.ru http://api.sb.mdlp.crpt.ru https://апи.национальный-каталог.рф/ https://xn--80aqu.xn----7sbabas4ajkhfocclk9d3cvfsa.xn--p1ai/v3/feed-product?apikey=6A9769C235F234&gtin=63649273152709 --http-methods GET STRESS
-
-tcp://82.202.190.212:80 tcp://82.202.190.212:443 tcp://91.230.251.101:80 tcp://91.230.251.101:443 tcp://91.230.251.71:80 tcp://91.230.251.71:443 tcp://91.230.251.77:80 tcp://91.230.251.77:443 tcp://91.230.251.99:80 tcp://91.230.251.99:443 tcp://91.230.251.70:80 tcp://91.230.251.70:443 tcp://78.142.221.17:80 tcp://78.142.221.17:443 tcp://91.230.251.81:80 tcp://91.230.251.81:443 tcp://91.230.251.82:80 tcp://91.230.251.82:443 tcp://91.230.251.78:80 tcp://91.230.251.78:443 tcp://91.230.251.79:80 tcp://91.230.251.79:443
+https://online.sberbank.ru/CSAFront/index.do#/ https://syncplay.online.sberbank.ru/ https://web4.online.sberbank.ru/ https://devices.online.sberbank.ru/ https://www.sberbank.com/ru https://www.sberbank.ru/ru/person https://tortuga.sberbank.ru/site/login https://3dsec.sberbank.ru/ https://mobilecm.csc.sberbank.ru/ https://office.sberbank.ru/ https://sber.ru/ https://sberdevices.ru/ https://osago.sberbank.ru/ https://rabota.sber.ru/
+https://api.developer.sber.ru/  --http-methods GET STRESS
