@@ -10,6 +10,7 @@ usage: ./auto_bash.sh [-t|-r|--table]
                         [-k HOURS]        (defaul  = 9999)
                         [-h]              show this menu
 EOF
+exit
 }
 
 startddos () {
