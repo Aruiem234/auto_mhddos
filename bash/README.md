@@ -79,4 +79,4 @@ https://github.com/mErlin-sp/mhddos_powershell
 
 ## Встановлення на Windows.
 
-[Инструкція по встановленнию Python3 і Git на Windows](https://telegra.ph/Vstanovlennya-mhddos-proxy-napryamu-na-vash-komp-03-27). Не тестувалось на сумісність з auto_bash. Дозволяє як мінімум запускати mhddos_proxy командами які надаються в каналі [українського женця](https://t.me/ukrainian_reaper_ddos). У випадку помилок можна написати по координатах, залишених в кінці інструкції.
+[Инструкція по встановленнию Python3 і Git на Windows](https://telegra.ph/Vstanovlennya-mhddos-proxy-napryamu-na-vash-komp-03-27). Не тестувалось на сумісність з auto_bash. Не сумісно, якщо було зроблено "Запуск на Windows у powershell". Дозволяє як мінімум запускати mhddos_proxy командами які надаються в каналі [українського женця](https://t.me/ukrainian_reaper_ddos). У випадку помилок можна написати по координатах, залишених в кінці інструкції.
